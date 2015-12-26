@@ -37,9 +37,9 @@ ob_start();
 
 // Check for a $page_title value:
 if (!isset($page_title)) {
-	$page_title = '未来论坛官网后台';
+	$page_title = '新盟官网后台';
 } else {
-    $page_title = '未来论坛官网后台 | '. $page_title; 
+    $page_title = '新盟官网后台 | '. $page_title; 
 }
 
 ?>

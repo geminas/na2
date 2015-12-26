@@ -25,9 +25,9 @@ if (isset($_SESSION['user_id'])) {
 ob_start();
 // Check for a $page_title value:
 if (!isset($page_title)) {
-	$page_title = '未来论坛官网后台';
+	$page_title = '新盟官网后台';
 } else {
-    $page_title = '未来论坛官网后台 | '. $page_title; 
+    $page_title = '新盟官网后台 | '. $page_title; 
 }
 
 ?>
@@ -60,7 +60,7 @@ License: Creative Commons Attribution
     <div id="container">
         <header>
             <div class="width">
-                <h1><a href="index.php">未来论坛官网后台</a></h1>
+                <h1><a href="index.php">新盟官网后台</a></h1>
             </div>
             <div class="clear"></div>
         </header>
